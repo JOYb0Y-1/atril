@@ -11,8 +11,8 @@
 set -euo pipefail
 
 # Lo que cambia con cada versión: el enlace directo al .dmg y su huella (shasum -a 256 Atril-….dmg).
-ATRIL_URL="${ATRIL_URL:-https://github.com/JOYb0Y-1/atril/releases/download/v0.1.4/Atril-0.1.4-universal.dmg}"
-ATRIL_SHA256="${ATRIL_SHA256:-d06ee8d9c6c2c6277f94601227c61b08519a29897fbd663033e4bb89590c136f}"
+ATRIL_URL="${ATRIL_URL:-https://github.com/JOYb0Y-1/atril/releases/download/v0.1.5/Atril-0.1.5-universal.dmg}"
+ATRIL_SHA256="${ATRIL_SHA256:-464165e734450c6d65dd0e6925d47cab1f6f172637da4f810590940427d3f386}"
 MACOS_MINIMO=12
 # Solo para probar el instalador: otra carpeta en lugar de Aplicaciones. Así no cierra ni abre Atril.
 DESTINO="${DESTINO:-}"
