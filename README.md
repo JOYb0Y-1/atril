@@ -1,6 +1,6 @@
 # Atril
 
-Panel de estudio para Mac: glosario, búsqueda, repaso y preguntas a Claude, siempre encima de la presentación.
+Panel de estudio para Mac: glosario, búsqueda, repaso, conversaciones con voz y preguntas a Claude, siempre encima de la presentación.
 
 ## Instalar o actualizar
 
@@ -13,6 +13,14 @@ curl -fsSL https://raw.githubusercontent.com/JOYb0Y-1/atril/main/instalar.sh | b
 - Sirve para cualquier Mac con macOS 12 o posterior, con chip Apple o Intel.
 - Baja la última versión, comprueba su huella (sha256), la copia a Aplicaciones y la abre. No usa `sudo`.
 - Para actualizar, se pega la misma línea otra vez.
+
+## Conversaciones con voz (0.1.6)
+
+Abre **Conversación** (⌘⇧L), informa a los participantes y pulsa **Escuchar**. Permite el micrófono cuando macOS lo solicite. La app transcribe en español cada 20 segundos, guarda el borrador localmente y permite exportarlo a Markdown.
+
+**Crear apuntes** y **Responder lo último** usan Claude y requieren su configuración e Internet. **Leer en voz alta** requiere detener la escucha. El motor y modelo de transcripción están incluidos: no necesitas Python, Homebrew, ffmpeg ni Rosetta. El audio de llamadas con auriculares requiere una entrada virtual configurada.
+
+Los binarios de la app y de voz incluyen Intel y Apple Silicon, con mínimo macOS 12.0. La ejecución se ha probado en Apple Silicon; falta la prueba física en macOS 12/Intel.
 
 ## El contenido
 
